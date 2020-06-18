@@ -1,11 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import HeaderRFC from './components/HeaderRFC';
+import BaiTapDanLayout from './components/BaiTapDanLayout/BaiTapDanLayout';
+import DataBinding from './components/dataBinding/DataBinding';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +23,17 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      {/* <h1>Hello React</h1> */}
+      {/* <button class="btn btn-danger">submit</button> */}
+      {/* <Header />
+      <Header />
+      <Header />
+      <Header />
+      <Header />
+      <HeaderRFC /> */}
+      {/* <BaiTapDanLayout /> */}
+      <DataBinding />
     </div>
   );
 }
